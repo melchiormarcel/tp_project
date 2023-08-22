@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+}
+.secondsec {
+    margin-top:50px;
+    height: 700px;
+    width: 100%;
+    background-color:rgba(162, 201, 104, 0.3);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.blocpresence, .calendarbloc {
+    display: inline-block;
+}
+
+.blocpresence {
+    margin-right: 300px;
+}
+
+.calendarbloc {
+    margin-left: 100px;
+}
+
+.presence {
+    font-size: 0.7em;
+    margin-bottom: 0px;
+    float: left;
+    text-align: center;
+    
+}
+
+
+.presence span {
+    font-size: 1em;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 0, 0,0.9);
+    color: white;
+    display: block;
+    margin-top: -5px;    
+}
+
+
+/* Calendrier */
+.calbloc {
+    background-color: white ;
+    border-radius: 10px;
+    max-width: 800px;
+    max-height: 555;
+   
+}
+.fc-day {
+    background-color: rgb(17, 192, 61);
+    
+}
+
+#calendar {
+    width: 520px;
+    height: 430px;
+    background-color: white;
+    color: rgb(18, 194, 106);
+    
+    
+}
+
+h2 {
+    text-align: start;
+}
